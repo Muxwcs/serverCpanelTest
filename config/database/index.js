@@ -2,7 +2,6 @@ const config = require("../environement");
 const { MongoClient } = require("mongodb");
 require("dotenv").config();
 
-// const url = process.env.MONGODB_URL;
 const { mongo_url } = config;
 const options = {};
 
