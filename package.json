@@ -1,0 +1,22 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "api test for deploy on cpanel",
+  "main": "index.js",
+  "author": "MuxRbx",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "mongodb": "6.3",
+    "nodemon": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js",
+    "test": "jest"
+  }
+}
